@@ -1,0 +1,49 @@
+.progress-wrapper{
+    border-radius: 8px;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+
+.profit-section .title{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+.profit-section .profite-value{
+    color: var(--text-color);
+}
+.progress-ring__circle {
+    transition: stroke-dashoffset 0.35s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.progress-remaining{
+    color: var(--background-active-color);
+}
+.progress-fill{
+    color: var(--active-color);
+}
+.progress-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-35%, -45%);
+}
+.progress-text span{
+    font-size: 18px;
+    color: var(--text-color);
+}
+.progress-text p{
+    font-size: 8px;
+    color: var(--accent-color);
+}
+.progress-wrapper .note{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 9px;
+    width: 140px;
+    color: var(--accent-color);
+}

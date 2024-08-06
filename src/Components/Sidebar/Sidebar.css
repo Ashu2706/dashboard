@@ -1,0 +1,25 @@
+.sidebar .logo{
+    color: var(--active-color);
+    margin: 0 auto;
+    width: 36px;
+    height: 36px;
+}
+.nav-link{
+    color:  #9FA1A5;
+    padding-left: 4px;
+}
+.nav-link:hover{
+    color: var(--accent-color);
+}
+.nav-link.active:hover{
+    color: var(--active-color);
+}
+.nav-link.active{
+    color: var(--active-color);
+    border-left: 4px solid var(--active-color);
+    padding-left: 0;
+}
+.nav-icon{
+    width: 25px;
+    height: 25px;
+}

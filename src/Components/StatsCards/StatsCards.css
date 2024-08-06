@@ -1,0 +1,38 @@
+.stats-card{
+    border-radius: 8px;
+    background-color: var(--primary-color);
+  }
+  
+  .stats-card-icon-wrapper .stats-card-icon{
+    font-size: 56px;
+    padding: 10px;
+    margin-bottom: 6px;
+    border-radius: 12px;
+  }
+  .stats-card-icon-wrapper #orders{
+    background-color: var(--background-active-color);
+    color: var(--active-color);  
+  }
+  .stats-card-icon-wrapper #delivery{
+    background-color: var(--background-green-color);
+    color: var(--green-color);
+  } 
+  .stats-card-icon-wrapper #cancelled{
+    background-color: var(--background-red-color);
+    color: var(--red-color);
+  }
+  .stats-card-icon-wrapper #revenue{
+    background-color: #5F2C4B;
+    color: #DC439A;
+  }
+  .stats-card .stats-card-content .stats-card-info{
+    font-size: 14px;
+    color: var(--accent-color);
+  }
+  .stats-card .stats-card-content .stats-card-count{
+    color: var(--text-color);
+  }
+  
+  .stats-card .stats-card-content .stats-card-percentage{
+    color: var(--green-color);
+  }

@@ -1,0 +1,41 @@
+.hamburger-wrapper .hamburger-icon{
+    font-size: 32px;
+    color: #9FA1A5;
+    cursor: pointer;
+}
+.navbar-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #45474B;
+    color: #9FA1A5;
+    font-size: 20px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+.bell-notification{
+    position: absolute;
+    top: 6px;
+    right: 7px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--active-color);
+    z-index: 1;
+}
+.navbar-content .profile-wrapper .profile{
+    width: 32px;
+    height: 32px;
+}
+.navbar-content .profile-wrapper .profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+@media screen and (max-width: 389px) {
+    .searchbar{
+        width: 130px;
+    }
+}

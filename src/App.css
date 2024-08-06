@@ -1,0 +1,29 @@
+.sidebar-container{
+  background-color: var(--primary-color);
+  border-right: 4px solid var(--primary-color);
+  min-height: 100vh;
+}
+.main{
+  width: calc(100% - 80px);
+  min-height: 100vh;
+  margin-left: auto;
+  background-color: var(--background-color);
+}
+.navbar-wrapper{
+  background-color: var(--primary-color);
+}
+
+.dashboard-heading{
+  color: var(--text-color);
+}
+
+
+@media screen and (max-width: 640px) {
+  .main{
+    width: 100%;
+  }
+  .sidebar-container{
+    border: 0;
+    width: 0;
+  }
+}
