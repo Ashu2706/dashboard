@@ -34,7 +34,10 @@
     color: var(--accent-color);
     font-weight: 500;
 }
-
+#category-icon-2{
+    background-color: #29326A;
+    color: #6F82EA;
+}
 #category-icon-3{
     background-color: #204A5F;
     color: #2C9CC9;
